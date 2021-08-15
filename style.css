@@ -17,8 +17,8 @@ header h3{
   margin-bottom: 100px;
 }
 .cover-img{
-  padding: 10px;
-  height: 50vw;
+  padding: 30px;
+  height: 30vw;
   overflow: hidden;
   position: relative;
 }
@@ -26,15 +26,15 @@ header h3{
   border-radius: 35px 35px 0 0;
 }
 .profile-img{
-  width: 40vw;
-  height: 40vw;
+  width: 20vw;
+  height: 20vw;
   overflow: hidden;
   border-radius: 100%;
   border: 2px solid #BFBFBF;
   position: relative;
-  left: 30vw;
-  top: -20vw;
+  left: 40vw;
+  top: -10vw;
 }
 .profile-img img{
-  width: 80vw;
+  width: 40vw;
 }
