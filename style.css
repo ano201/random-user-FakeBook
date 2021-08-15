@@ -1,0 +1,40 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: white;
+  font-family: 'Trebuchet MS', sans-serif;
+}
+img {
+  width: 100%;
+}
+header h3{
+  margin: 0;
+  background: #4756F8;
+  color: white;
+  padding: 3px 6px;
+}
+.container{
+  margin-bottom: 100px;
+}
+.cover-img{
+  padding: 10px;
+  height: 50vw;
+  overflow: hidden;
+  position: relative;
+}
+.cover-img img{
+  border-radius: 35px 35px 0 0;
+}
+.profile-img{
+  width: 40vw;
+  height: 40vw;
+  overflow: hidden;
+  border-radius: 100%;
+  border: 2px solid #BFBFBF;
+  position: relative;
+  left: 30vw;
+  top: -20vw;
+}
+.profile-img img{
+  width: 80vw;
+}
