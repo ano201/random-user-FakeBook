@@ -14,7 +14,7 @@ header h3{
   padding: 3px 6px;
 }
 .container{
-  margin-bottom: 100px;
+  margin-bottom: 0px;
 }
 .cover-img{
   padding: 30px;
@@ -37,4 +37,15 @@ header h3{
 }
 .profile-img img{
   width: 40vw;
+}
+.user-name{
+  margin-top: -50px;
+  text-align: center;
+}
+.bio{
+  text-align: center;
+  padding: 0 10vw;
+}
+.location{
+  padding-left: 10vw;
 }
