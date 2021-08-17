@@ -1,4 +1,4 @@
-fetch('download.json')
+fetch('https://randomuser.me/api/')
 .then(res => res.json())
 .then(data => userData(data))
 
