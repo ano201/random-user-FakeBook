@@ -10,7 +10,20 @@ function userData(usr) {
   const usrLocation = user.location;
   userLocation(usrLocation);
   
+  const usrPhone = user;
+  userPhn(usrPhone);
   
+  const usrPic = user.picture;
+  userPic(usrPic);
+}
+
+
+
+function userPic(pic) {
+  const cover = document.getElementById("cover-pic");
+  const profile = document.getElementById("profile-pic");
+  cover.setAttribute('src', pic.large)
+  profile.setAttribute('src', pic.medium)
 }
 
 function userName(name) {
@@ -25,9 +38,16 @@ function userLocation(location) {
   const city = document.getElementById("city");
   const state = document.getElementById("state");
   const postcode = document.getElementById("postcode");
+  const phone = document.getElementById("phone");
   country.innerText = location.country;
   city.innerText = location.city;
   state.innerText = location.state;
   postcode.innerText = location.postcode;
-  console.log(location);
+}
+
+function userPhn(userPhone){
+  const phone = document.getElementById("phone");
+  const cell = document.getElementById("cell");
+  phone.innerText = userPhone.phone;
+  cell.innerText = userPhone.cell;
 }
